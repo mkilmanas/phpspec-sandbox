@@ -1,0 +1,25 @@
+{
+    "name": "mkilmanas/phpspec-sandbox",
+    "type": "project",
+    "description": "Sandbox for rapid phpspec setup and experiments",
+    "license": "MIT",
+    "homepage": "https://github.com/mkilmanas/phpspec-sandbox",
+    "authors": [
+        {
+            "name": "Marijus Kilmanas",
+            "homepage": "https://github.com/mkilmanas"
+        }
+    ],
+    "require": {
+        "phpspec/phpspec": "^5.1"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "src/",
+            "spec\\": "spec/"
+        }
+    }
+}
